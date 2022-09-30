@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+}
+
+#filter-column {
+    width: 200px;
+    display: inline-block;
+}
+
+#chart-column {
+    width: calc(100% - 210px);
+    height: 450px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#nebula-chart-column {
+    width: calc(100% - 210px);
+    height: 450px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 210px;
+}
+
+#chart {
+    height: 100%;
+    width: 100%;
+}
+
+#nebula-chart {
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    font-size: 12px;
+    color: #444;
+    list-style: none;
+    padding: 0px;
+    margin: 5px 10px 20px 10px;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.filter-title {
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+li.S {
+    background-color: #009845;
+    color: white;
+}
+
+li.X {
+    background-color: #e4e4e4;
+    color: #828282;
+    font-style: italic;
+}
