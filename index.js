@@ -90,10 +90,6 @@ const chartDef = {
         const chartLayout = await chartObj.getLayout();
         renderChart(chartLayout);
     })
-    
-
-    // NEBULA CHART
-    // renderNebulaChart(NebulaChartElem, enigmaApp);
 
 })();
 

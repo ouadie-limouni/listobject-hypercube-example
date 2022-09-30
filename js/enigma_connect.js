@@ -1,5 +1,3 @@
-
-
 // ENIGMA CONNECTION
 async function connectEnigma(qcsHeaders, appId, identity) {
     const [session, app] = await getEnigmaSessionAndApp(appId, qcsHeaders, identity);
